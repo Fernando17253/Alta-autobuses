@@ -1,0 +1,84 @@
+input{
+    display:flex;
+    align-items: center;
+    background-color: rgb(233, 230, 236);
+    height: 4vh;
+    width: 15vw;
+    margin-top: 20px;
+}
+
+.options{
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color:#0400ff;
+    color:#fe0000;
+
+    box-shadow: 8px 8px 8px 8px rgb(110, 110, 110);
+ }
+
+button{
+    background-color: rgb(95, 226, 95);
+
+    height: 4vh;
+    width: 10vw;
+
+    margin-top: 10px;
+
+    border-radius: 25px;
+
+    align-items: center;
+
+}
+
+html{
+    background:linear-gradient(rgb(225, 0, 255), rgb(101, 7, 190));}
+
+.borde{
+    display: flex;
+
+    justify-content:center;
+
+    
+}
+
+#formulario1{
+    display: flex;
+
+    justify-content: center;
+
+    align-items:center;
+
+        height: 98vh;
+
+}
+
+#formulario{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #fe0000;
+
+    border-radius: 20px;
+
+    border-width: 5px;
+
+    height: 50vh;/*largo borde*/
+    width: 26vw;/*ancho borde*/
+
+    box-shadow: 15px 15px 15px 15px rgb(110, 110, 110);
+
+    
+flex-direction: column;    
+align-items:center;
+
+    
+        width:50vh ;
+        height: 45vw;
+
+}
+
